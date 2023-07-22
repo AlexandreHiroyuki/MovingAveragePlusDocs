@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'MovingAveragePlus Docs',
-  url: 'https://alexandrehiroyuki.github.io/MovingAveragePlusDocs/',
+  url: 'https://alexandrehiroyuki.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
