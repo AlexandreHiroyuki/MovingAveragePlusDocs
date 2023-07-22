@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'aDev Class',
-  url: 'https://adev-class.vercel.app',
+  title: 'MovingAveragePlus Docs',
+  url: 'https://alexandrehiroyuki.github.io/MovingAveragePlusDocs/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -15,8 +15,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'aDevGuild', // Usually your GitHub org/user name.
-  projectName: 'adev-class', // Usually your repo name.
+  organizationName: 'AlexandreHiroyuki', // Usually your GitHub org/user name.
+  projectName: 'MovingAveragePlusDocs', // Usually your repo name.
+  trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -56,13 +57,13 @@ const config = {
           content:
             'Aplicação destinada a mentoria e incentivo de iniciantes na programação.',
         },
-        { name: 'twitter:title', content: 'aDev Class' },
+        { name: 'twitter:title', content: 'MovingAveragePlus Docs' },
         { name: 'twitter:image', content: 'img/icon.png' },
       ],
       navbar: {
-        title: 'aDev Class',
+        title: 'MovingAveragePlus Docs',
         logo: {
-          alt: 'aDev Guild Logo',
+          alt: 'Moving Average Plus Docs Logo',
           src: 'img/icon.png',
         },
         items: [
@@ -91,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'GitHub Org',
-                href: 'https://github.com/aDevGuild',
+                href: 'https://github.com/AlexandreHiroyuki',
               },
             ],
           },
@@ -100,12 +101,12 @@ const config = {
             items: [
               {
                 label: 'GitHub Repo',
-                href: 'https://github.com/aDevGuild/adev-class',
+                href: 'https://github.com/AlexandreHiroyuki/MovingAveragePlusDocs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} aDev Guild, Inc. aDev Class é uma marca da aDev Guild. Site construído com Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Alexandre H. Yamauchi. MovingAveragePlus é uma marca de Alexandre H. Yamauchi. Site construído com Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
