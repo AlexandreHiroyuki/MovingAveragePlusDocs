@@ -24,16 +24,9 @@
   }
 }
 
-.heroLogo {
-  min-width: 128px;
-  max-width: 256px;
-  margin: 0 auto;
-
-  border-radius: 8px;
-}
-
 .heroTitle {
-  text-shadow: 0px 0px 16px #ffffff;
+  text-shadow: 0px 0px 12px var(--ifm-font-color-base);
+  padding: 16px;
 }
 
 .buttons {
