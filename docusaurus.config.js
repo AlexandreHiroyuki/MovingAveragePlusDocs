@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'MovingAveragePlus Docs',
   url: 'https://alexandrehiroyuki.github.io',
-  baseUrl: '/',
+  baseUrl: '/MovingAveragePlusDocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/icon.png',
