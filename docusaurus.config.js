@@ -82,7 +82,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Begin to Use',
                 to: '/docs/intro',
               },
             ],
@@ -91,7 +91,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'GitHub Org',
+                label: 'AlexandreHiroyuki - GitHub',
                 href: 'https://github.com/AlexandreHiroyuki',
               },
             ],
@@ -100,7 +100,11 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub Repo',
+                label: 'Library GitHub Repo',
+                href: 'https://github.com/AlexandreHiroyuki/MovingAveragePlus',
+              },
+              {
+                label: 'Docs GitHub Repo',
                 href: 'https://github.com/AlexandreHiroyuki/MovingAveragePlusDocs',
               },
             ],
