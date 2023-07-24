@@ -1,0 +1,8 @@
+{
+  "label": "Partials",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "The Partials are a more efficient way of calculating the average of one data array partial sizes by avoiding the recalculation of the entire array every time."
+  }
+}

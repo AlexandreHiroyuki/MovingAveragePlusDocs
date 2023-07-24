@@ -10,6 +10,10 @@
 
 ## Topics
 
-- Something
+- Installation
+- Constructor
+- Input/Output Methods
+- Array Methods
+- Partials
 
-[Veja mais em <placeholder>.com](https://<placeholder>.com/)
+[Access the Docs on https://alexandrehiroyuki.github.io/MovingAveragePlusDocs/](https://alexandrehiroyuki.github.io/MovingAveragePlusDocs/)

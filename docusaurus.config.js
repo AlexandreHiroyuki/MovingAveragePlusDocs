@@ -71,7 +71,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Getting Started',
           },
         ],
       },
@@ -82,8 +82,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Begin to Use',
+                label: 'Getting Started',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Moving Average+ Methods',
+                to: '/docs/class-methods/intro',
+              },
+              {
+                label: 'Partials',
+                to: '/docs/class-methods/partials/intro',
               },
             ],
           },

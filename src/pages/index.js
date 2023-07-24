@@ -20,7 +20,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Comece a Aprender! - 1min ⏱️
+            Getting Started - 1min ⏱️
           </Link>
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} Home`}
-      description="Description will go into a meta tag in <head />"
+      description="Moving Average Plus documentation. Learn how to use Moving Average Plus library on Arduino and other microcontrollers."
     >
       <HomepageHeader />
     </Layout>
