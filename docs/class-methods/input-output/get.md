@@ -14,8 +14,8 @@ sidebar_position: 2
 TypeOfArray get()
 
 // Passing the number of points you want to calculate the average as an parameter is an alias to ge_by_brute function.
-//⚠Pay attention to how get_by_brute is significantly slower than the pure get function.
-//If you are looking for a more efficient solution, search for the partial average concept in this library.
+// ⚠Pay attention to how get_by_brute is significantly slower than the pure get function.
+// If you are looking for a more efficient solution, search for the partial average concept in this library.
 TypeOfArray get(size_t n_points) { return get_by_brute(n_points); }
 ```
 
