@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 💾Installation
+# 💾 Installation
 
 1. Clone the repository and download the zip file at https://github.com/AlexandreHiroyuki/MovingAverage_ArduinoLibrary.
    Also, you can see and download all releases at https://github.com/AlexandreHiroyuki/MovingAverage_ArduinoLibrary/releases.
@@ -26,7 +26,7 @@ sidebar_position: 1
 
 ---
 
-# 💡Getting Started
+# 💡 Getting Started
 
 1. You can easily try out the library by running the example code.
 2. Just open the subfolder `MovingAverage_ArduinoLibrary/examples/`.
@@ -36,7 +36,7 @@ sidebar_position: 1
 
 ---
 
-# 📦Moving Average+ Methods
+# 📦 Moving Average+ Methods
 
 The **MovingAveragePlus** class abstracts the implementation of a circular array in order to calculate the arithmetic average of its members.
 Because it is a circular array, the next input will replace the oldest element (represented by the first index), so it is also possible to call it a **FIFO queue**.

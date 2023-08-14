@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# 📤Get
+# 📤 Get
 
 **Returns** the **current** moving average **value**.
 
 📊[Partials](pathname:///docs/class-methods/partials/intro)
 
-### 📝Syntax
+## 📝 Syntax
 
 ```cpp
 TypeOfArray get()
@@ -19,7 +19,7 @@ TypeOfArray get()
 TypeOfArray get(size_t n_points) { return get_by_brute(n_points); }
 ```
 
-### 🔮Example
+## 🔮 Example
 
 ```cpp
 // This will create an MovingAverage of size 4 and int type
@@ -42,6 +42,6 @@ intAverage.get();
 intAverage.get(2);
 ```
 
-### ⏱Complexity
+## ⏱ Complexity
 
 **Constant (O(1))**.

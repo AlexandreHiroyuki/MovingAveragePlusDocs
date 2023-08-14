@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 📊The Partials Concept
+# 📊 The Partials Concept
 
 The **Partials** are a **more efficient** way of calculating the average of one data array partial sizes by avoiding the recalculation of the entire array every time.
 

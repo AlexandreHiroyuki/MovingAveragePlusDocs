@@ -2,9 +2,10 @@
 sidebar_position: 1
 ---
 
-# 📥Push
+# 📥 Push
+
 **Inserts** a **new element** in the internal array and **returns** a pointer.
-*Methods that **return pointers** allow **chained calls**.*
+_Methods that **return pointers** allow **chained calls**._
 
 ```cpp
 MovingAveragePlus<unsigned int> intAverage(10);
@@ -17,7 +18,7 @@ first = intAverage.push(56).front();
 last = intAverage.push(8).back();
 ```
 
-### 📝Syntax
+## 📝 Syntax
 
 ```cpp
 MovingAveragePlus<TypeOfArray> &push(TypeOfArray input)
@@ -25,7 +26,7 @@ MovingAveragePlus<TypeOfArray> &push(TypeOfArray input)
 
 - **Inserts** the **input** of type **TypeOfArray** at the end of the **array**.
 
-### 🔮Example
+## 🔮 Example
 
 ```cpp
 // This will create an MovingAverage of size 5 and unsigned type
@@ -37,16 +38,16 @@ intAverage.push(6);
 
 // Array: 1 6
 // Array: 2 1 6
-// Array: 3 
+// Array: 3
 // Array: 4 3 2 1 6
 for(int i = 1; i < 5; i++){
     intAverage.push(i);
 }
 
 // Array: 21 1 2 3 4
-intAverage.push(21);  
+intAverage.push(21);
 ```
 
-### ⏱Complexity
+## ⏱ Complexity
 
 **Constant (O(1))**.
