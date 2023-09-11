@@ -18,7 +18,7 @@ sidebar_position: 1
 - You can also download and install the library through the official library manager on the Arduino IDE https://www.arduino.cc/reference/en/libraries/movingaverageplus/.
   Access https://www.arduino.cc/en/guide/libraries to see more details about installing libraries on Arduino IDE.
 
-- Another site that lists Arduino libraries accepted by the official library manager https://www.arduinolibraries.info/libraries/moving-average-library.
+- Another site that lists Arduino libraries accepted by the official library manager https://www.arduinolibraries.info/libraries/moving-average-plus.
 
 - **_—Recommended Platform—_** Now it's possible to install this library on the [PlatformIO Registry](https://registry.platformio.org/libraries/alexandrehiroyuki/MovingAveragePlus)!
 
