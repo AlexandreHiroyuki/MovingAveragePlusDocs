@@ -11,7 +11,7 @@ _If the requested index exceed the array size, it will return a 0._
 ### 📝 Syntax
 
 ```cpp
-TypeOfArray atIndex(size_t index)
+TypeOfArray at_index(size_t index)
 ```
 
 ### 🔮 Example
@@ -30,7 +30,7 @@ intAverage.push(3);
 intAverage.push(4)
 
 // return 1
-intAverage.atIndex(0);
+intAverage.at_index(0);
 ```
 
 ### ⏱ Complexity
