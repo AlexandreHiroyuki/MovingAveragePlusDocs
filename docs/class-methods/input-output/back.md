@@ -4,8 +4,6 @@ sidebar_position: 5
 
 # ⬅️ Back
 
----
-
 **Returns** the last element of the **array** (the oldest element added).
 
 ### 📝 Syntax

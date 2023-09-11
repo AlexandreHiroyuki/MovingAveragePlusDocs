@@ -4,8 +4,6 @@ sidebar_position: 4
 
 # ➡️ Front
 
----
-
 **Returns** the first element of the **array** (the most recent element added).
 
 ### 📝 Syntax

@@ -4,8 +4,6 @@ sidebar_position: 6
 
 # 📍 Operator[]
 
----
-
 **Returns** the requested element at the **relative** position of the **array** (the first index is aways the most recent element added).
 
 _If the requested index exceed the array size, it will return a 0._

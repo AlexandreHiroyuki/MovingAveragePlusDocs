@@ -4,8 +4,6 @@ sidebar_position: 7
 
 # 📍 AtIndex
 
----
-
 **Returns** the requested element at the **absolute** position of the **array**.
 
 _If the requested index exceed the array size, it will return a 0._

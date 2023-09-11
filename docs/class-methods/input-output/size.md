@@ -4,8 +4,6 @@ sidebar_position: 8
 
 # 📏 Size
 
----
-
 **Returns** the **size** of the **array**.
 
 ### 📝 Syntax
