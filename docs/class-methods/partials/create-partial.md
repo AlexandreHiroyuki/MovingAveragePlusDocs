@@ -8,13 +8,13 @@ When you create a Partial, the structure will create a reactive variable behind 
 The Partial will keep tracking of the requested sum size.
 Requesting a bigger size than the main array will be understood as the maximum array size.
 
-## 📝 Syntax
+### 📝 Syntax
 
 ```cpp
 size_t create_partial(size_t sum_size)
 ```
 
-## 🔮 Example
+### 🔮 Example
 
 ```cpp
 MovingAveragePlus<unsigned int> intAverage(10);
@@ -31,6 +31,6 @@ intAverage.get_partial(partial_id);
 intAverage.get_partial(partial_2_id);
 ```
 
-## ⏱ Complexity
+### ⏱ Complexity
 
 **Constant (O(1))**.

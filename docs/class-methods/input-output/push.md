@@ -18,7 +18,7 @@ first = intAverage.push(56).front();
 last = intAverage.push(8).back();
 ```
 
-## 📝 Syntax
+### 📝 Syntax
 
 ```cpp
 MovingAveragePlus<TypeOfArray> &push(TypeOfArray input)
@@ -26,7 +26,7 @@ MovingAveragePlus<TypeOfArray> &push(TypeOfArray input)
 
 - **Inserts** the **input** of type **TypeOfArray** at the end of the **array**.
 
-## 🔮 Example
+### 🔮 Example
 
 ```cpp
 // This will create an MovingAverage of size 5 and unsigned type
@@ -48,6 +48,6 @@ for(int i = 1; i < 5; i++){
 intAverage.push(21);
 ```
 
-## ⏱ Complexity
+### ⏱ Complexity
 
 **Constant (O(1))**.

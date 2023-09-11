@@ -8,13 +8,13 @@ Returns the Partial average result of the requested ID.
 Use the ID provided by the creation method to access the partial result.
 Requesting an invalid ID will return a 0.
 
-## 📝 Syntax
+### 📝 Syntax
 
 ```cpp
 TypeOfArray get_partial(size_t id)
 ```
 
-## 🔮 Example
+### 🔮 Example
 
 ```cpp
 MovingAveragePlus<unsigned int> intAverage(10);
@@ -31,6 +31,6 @@ intAverage.get_partial(partial_id);
 intAverage.get_partial(partial_2_id);
 ```
 
-## ⏱Complexity
+### ⏱Complexity
 
 **Constant (O(1))**.

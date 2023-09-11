@@ -8,6 +8,12 @@
 <img src="./static/img/icon.png" width="64" height="64" />
 </p>
 
+## Getting Started
+
+1. Clone the repository.
+2. Install the dependencies with `yarn install`.
+3. Run the development server with `yarn start`.
+
 ## Topics
 
 - Installation

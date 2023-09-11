@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-# 📐 Resize
+# 🌊 Fill
 
-**Changes** the **array** **size**.
+**Fills and overwrites** the array with the received element.
 
 _Methods that **return pointers** allow **chained calls**._
 
@@ -22,22 +22,20 @@ last = intAverage.push(8).back();
 ### 📝 Syntax
 
 ```cpp
-MovingAveragePlus<TypeOfArray> &resize(size_t new_size)
+MovingAveragePlus<TypeOfArray> &fill(TypeOfArray fill_value)
 ```
 
 ### 🔮 Example
 
 ```cpp
-MovingAveragePlus<unsigned int> intAverage(3);
-
-// 3 2 1
-intAverage.push(1).push(2).push(3);
-
-// 3 2 1 0 0
-intAverage.resize(5);
+// 0 0 0 0 0
+MovingAveragePlus<unsigned int> intAverage(5);
 
 // 4 3 2 1 0
-intAverage.push(4);
+intAverage.push(1).push(2).push(3).push(4)
+
+// 10 10 10 10 10
+intAverage.fill(10)
 ```
 
 ### ⏱ Complexity
