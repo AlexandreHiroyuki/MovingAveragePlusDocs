@@ -38,7 +38,7 @@ intAverage.push(4);
 // Value: (8 + 8 + 4 + 4) / 4 = 6
 intAverage.get_by_brute(4);
 
-// Value: (8 + 8) / 2 = 8
+// Value: (4 + 4) / 2 = 4
 intAverage.get_by_brute(2);
 ```
 
