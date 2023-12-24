@@ -20,8 +20,15 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/intro"
           >
-            Getting Started - 1min ⏱️
+            Getting Started
           </Link>
+          <a
+            className="button button--primary button--lg"
+            href="https://alexandrehiroyuki.github.io/DataTomeDocs/"
+          >
+            All support is now dedicated to DataTome 📚
+            <br /> Start your project with DataTome!
+          </a>
         </div>
       </div>
     </header>
